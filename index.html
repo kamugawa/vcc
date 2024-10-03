@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Primary Meta Tags -->
+  <title>ParaYou</title>
+  <meta name="title" content="BeautySalon">
+  <meta name="description" content="Um salão exclusivo em São Paulo, especializado em tratamentos naturais.">
+
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="libs/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Icons (icomoon.io) -->
+  <link rel="stylesheet" href="assets/fonts/style.css">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Favicons -->
+  <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+  <meta name="msapplication-TileColor" content="#69B99D">
+  <meta name="theme-color" content="#69B99D">
+
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header id="header">
+    <nav class="container">
+      <a class="logo" href="#">Somente para <span>YOU</span></a>
+      <div class="menu">
+        <ul class="grid">
+          <li><a class="title" href="#home">Início</a></li>
+          <li><a class="title" href="#about">Texto</a></li>
+          <li><a class="title" href="#services">Vantagens</a></li>
+          <li><a class="title" href="#testimonials">perfeição</a></li>
+          <li><a class="title" href="#contact">Conclusão</a></li>
+        </ul>
+      </div>
+      <div class="toggle icon-menu"></div>
+      <div class="toggle icon-close"></div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Home -->
+    <section class="section" id="home">
+      <div class="container grid">
+        <div class="image">
+          <img src="assets/images/gat.jpg" alt="img teste">
+        </div>
+        <div class="text">
+          <h2 class="title"> Oi, tudo bem?</h2>
+          <p>  Saiba que isso não é uma declaração de amor ou algo similar, e sim um pouco do meu esforço para te mostrar que eu posso ser seu amor algum dia. Isso mostra minha dedicação e carinho, e principalmente que quero e vou atrás.</p>
+          
+          <a class="button" onclick="togglePlay()">
+            Tocar Música
+        </a>
+        
+        <audio id="musicPlayer" src="assets/audio/DBGT_-_Sorriso_Resplandecente________[_YouConvert.net_].mp3"></audio>
+        </div>
+      </div>
+    </section>
+
+    <!-- Divisor -->
+    <div class="divider-1"></div>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container grid">
+        <div class="image">
+          <img src="assets/images/hq720_2.jpg" alt="3 mulheres sorrinfo">
+        </div>
+        <div class="text">
+          <h2 class="title">Com carinho</h2>
+          <p>Sei que ainda nos conhecemos pouco, mas saiba que o pouco que vi já me conquistou em muitos aspectos. Busco alguém por quem valha a pena lutar e persistir. Alguém como você, que se mostra difícil, mas não impossível. Estou disposto a ir até o além para conhecer cada pedacinho da sua alma.
+          </p>
+          <br>
+          <p>"O tempo molda o ser, e o ser se transforma em algo." Acredito fielmente nessa frase. Quero mudar todos os seus pontos de vista e te convencer de que serei "EU" quem um dia vai roubar o seu coração. Entendo que isso pode ser novo para você, então vou simplificar: eu te quero e irei repetir isso toda vez que você se questionar se alguém, neste mundo, te deseja.</p>
+          <br>
+          <p>Eu digo isso com decisão. Independentemente da tempestade, a enfrentarei de cabeça erguida, porque estou cansado de esperar pela pessoa certa. Quero que a pessoa certa apareça diante das minhas atitudes, como naquele dia. A vida me ajudou, sabia? Fez com que nenhum lugar no ônibus estivesse vazio, permitindo que eu sentasse ao seu lado e descobrisse alguém que acendeu algo em mim, algo que não sentia há tempos. Eu chamo isso de "vontade", algo que havia perdido no mar profundo dos meus pensamentos. Sou muito grato por você.</p>
+          <br>
+          <p>
+            Espero que o futuro esteja escrevendo livros para nós, porque garanto que teremos muitas histórias, e elas não serão vividas separados, mas juntos.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Divisor -->
+    <div class="divider-2"></div>
+
+    <!-- Services -->
+    <section class="section" id="services">
+      <div class="container grid">
+        <header>
+          <h2 class="title">Vantagens</h2>
+          <p class="subtitle">Vantagens? "Sim", vou dizer o básico, porque com o tempo você vai perceber minhas qualidades.</p>
+        </header>
+        <div class="cards grid">
+          <div class="card">
+            <i class=""></i>
+            <h3 class="title">Carinhoso</h3>
+            <p>Te darei o mundo e todo o carinho que precisar. Nos dias mais sombrios, estarei aqui para arrancar um sorriso desse seu rosto lindo.</p>
+          </div>
+          <div class="card">
+            <i class=""></i>
+            <h3 class="title">Companheiro</h3>
+            <p>Para todos os seus sonhos e planos, estarei lá para questionar, apoiar e caminhar ao seu lado. O seu sonho será o meu, e vice-versa. E nos momentos de tristeza ou dificuldade, estarei presente, tentando cuidar de você.</p>
+          </div>
+          <div class="card">
+            <i class=""></i>
+            <h3 class="title">Prestativo</h3>
+            <p>Eu não sei fazer muitas coisas, mas o pouco que sei, irei usar para te ajudar no que for preciso. Seja em um trabalho difícil ou simplesmente em te dar a atenção que merece. E, claro, te presentear com muitos presentes como este no futuro.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Divisor -->
+    <div class="divider-1"></div>
+
+    <!-- Testimonials -->
+    <section class="section" id="testimonials">
+      <div class="container">
+        <header>
+          <h2 class="title">A menina mais linda. </h2>
+        </header>
+        <div class="testimonials swiper-container">
+          <div class="swiper-wrapper">
+            <div class="testimonial swiper-slide">
+              <blockquote>
+                <p>
+                
+                 <img src="assets/images/Captura de tela 2024-10-02 214817.png" alt="algo">
+                </p>
+                <cite>
+                 
+                </cite>
+              </blockquote>
+            </div>
+
+            <div class="testimonial swiper-slide">
+              <blockquote>
+                <p>
+              
+                 <img src="assets/images/Captura de tela 2024-10-02 214843.png" alt="algo">
+                </p>
+                <cite>
+                 
+             
+                </cite>
+              </blockquote>
+            </div>
+
+            <div class="testimonial swiper-slide">
+              <blockquote>
+                <p>
+                
+                <img src="assets/images/Captura de tela 2024-10-02 214947.png" alt="algo">
+                </p>
+                <cite>
+                  
+                
+                  
+                </cite>
+              </blockquote>
+            </div>
+            
+            
+          </div>
+          <!-- Pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Divisor -->
+    <div class="divider-2"></div>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+      <div class="container grid">
+        <div class="text">
+          <h2 class="title">Conclusão</h2>
+          <p>Quero apostar todas as minhas fichas em você. Quero, um dia, me tornar alguém bom para você, me tornar, quem sabe, o seu "amor". Vou me esforçar para isso. A resposta que eu queria, eu já tenho: a sua "chance". E eu não a desperdiçarei, vou abraçá-la de coração. Obrigado por tudo, de <3, mesmo. </p>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- Divisor -->
+    <div class="divider-1"></div>
+
+  </main>
+
+
+  <footer class="section">
+    <div class="container grid">
+      <div class="brand">
+        <a class="logo logo-alt" href="#home">Feito com <strong style="color: red;"> <3 </strong> </a>
+        <p>.</p>
+        <p></p>
+      </div>
+    
+    </div>
+  </footer>
+
+  <a href="#home" class="back-to-top"><i class="icon-arrow-up"></i></a>
+
+  <!-- Swiper / Scroll -->
+  <script src="libs/swiper-bundle.min.js"></script>
+  <!-- Scroll Reveal -->
+  <script src="libs/scrollreveal.min.js"></script>
+  <!-- Scripts -->
+  <script src="main.js"></script>
+
+</body>
+
+</html>
